@@ -1,0 +1,44 @@
+name: example_app_2
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Firebase
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+  firebase_storage: ^11.6.0
+  firebase_app_check: ^0.2.2
+
+  # State management
+  provider: ^6.1.2
+
+  # Camera / Image picker
+  image_picker: ^1.0.7
+
+  # OCR
+  google_mlkit_text_recognition: ^0.11.0
+
+  # AI
+  http: ^1.2.0
+
+  # Charts
+  fl_chart: ^0.66.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/tipsense_logo.png
